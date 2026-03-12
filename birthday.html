@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday ❤️</title>
+<link rel="stylesheet" href="css/birthday.css">
+</head>
+<body>
+
+<!-- Night Sky -->
+<div class="night-sky"></div>
+
+<!-- Card -->
+<div class="card">
+  <img src="photo2.jpg" class="photo" alt="Birthday Photo">
+  <h1>Happy Birthday 🎂</h1>
+  <button id="surpriseBtn">Click for Surprise ❤️</button>
+  <p id="message"></p>
+  <button onclick="showLetter()" class="letter-btn">Open Love Letter 💌</button>
+</div>
+
+<!-- Love Letter Popup -->
+<div id="loveLetter" class="love-letter">
+  <h2>💌 My Love 💌</h2>
+  <p></p>
+  <button onclick="closeLetter()">Close</button>
+</div>
+
+<!-- Cake -->
+<div class="cake">
+  <div class="candle">
+    <div class="flame"></div>
+  </div>
+  <div class="cake-body"></div>
+</div>
+
+<!-- Audio -->
+<audio id="music" src="happy_birthday.mp3.mp3"></audio>
+
+<script src="js/birthday.js"></script>
+</body>
+</html>
